@@ -1,0 +1,328 @@
+{
+	// 使用 IntelliSense 了解相关属性。
+	// 悬停以查看现有属性的描述。
+	// 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "hyperloglog_test",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/test/hyperloglog_test",
+			"args": [
+				"/home/koi/mastercode/Mini_CGAL/static/dragon.off"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"preLaunchTask": "CMake Build",
+			"setupCommands": [
+				{
+                    "description": "Test",
+                    "text": "python import sys;sys.path.insert(0, '/usr/share/gcc/python');from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+			]
+		},
+		{
+			"name": "lru_k_replacer_test",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/test/lru_k_replacer_test",
+			"args": [
+				"/home/koi/mastercode/Mini_CGAL/static/dragon.off"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"preLaunchTask": "CMake Build",
+			"setupCommands": [
+				{
+                    "description": "Test",
+                    "text": "python import sys;sys.path.insert(0, '/usr/share/gcc/python');from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+			]
+		},
+		{
+			"name": "disk_scheduler_test",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/test/disk_scheduler_test",
+			"args": [
+				"/home/koi/mastercode/Mini_CGAL/static/dragon.off"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"preLaunchTask": "CMake Build",
+			"setupCommands": [
+				{
+                    "description": "Test",
+                    "text": "python import sys;sys.path.insert(0, '/usr/share/gcc/python');from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+			]
+		},
+		{
+			"name": "page_guard_test",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/test/page_guard_test",
+			"args": [
+				"/home/koi/mastercode/Mini_CGAL/static/dragon.off"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"preLaunchTask": "CMake Build",
+			"setupCommands": [
+				{
+                    "description": "Test",
+                    "text": "python import sys;sys.path.insert(0, '/usr/share/gcc/python');from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+			]
+		},
+		{
+			"name": "buffer_pool_manager_test",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/test/buffer_pool_manager_test",
+			"args": [
+				"/home/koi/mastercode/Mini_CGAL/static/dragon.off"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"preLaunchTask": "CMake Build",
+			"setupCommands": [
+				{
+                    "description": "Test",
+                    "text": "python import sys;sys.path.insert(0, '/usr/share/gcc/python');from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+			]
+		},
+		{
+			"name": "b_plus_tree_insert_test",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/test/b_plus_tree_insert_test",
+			"args": [
+				"/home/koi/mastercode/Mini_CGAL/static/dragon.off"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"preLaunchTask": "CMake Build",
+			"setupCommands": [
+				{
+                    "description": "Test",
+                    "text": "python import sys;sys.path.insert(0, '/usr/share/gcc/python');from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+			]
+		},
+		{
+			"name": "b_plus_tree_delete_test",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/test/b_plus_tree_delete_test",
+			"args": [
+				"/home/koi/mastercode/Mini_CGAL/static/dragon.off"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"preLaunchTask": "CMake Build",
+			"setupCommands": [
+				{
+                    "description": "Test",
+                    "text": "python import sys;sys.path.insert(0, '/usr/share/gcc/python');from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+			]
+		},
+		{
+			"name": "sqllogictest",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/bin/bustub-sqllogictest",
+			"args": [
+				"../test/sql/p3.16-sort-limit.slt", "--verbose"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"preLaunchTask": "CMake Build",
+			"setupCommands": [
+				{
+                    "description": "Test",
+                    "text": "python import sys;sys.path.insert(0, '/usr/share/gcc/python');from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+			]
+		},
+        {
+			"name": "txn_scan_test",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/test/txn_scan_test",
+			"args": [
+				"../test/sql/p3.16-sort-limit.slt", "--verbose"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"preLaunchTask": "CMake Build",
+			"setupCommands": [
+				{
+                    "description": "Test",
+                    "text": "python import sys;sys.path.insert(0, '/usr/share/gcc/python');from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+			]
+		},
+        {
+			"name": "txn_executor_test",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/build/test/txn_executor_test",
+			"args": [
+				"../test/sql/p3.16-sort-limit.slt", "--verbose"
+			],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}/build",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "gdb",
+			"preLaunchTask": "CMake Build",
+			"setupCommands": [
+				{
+                    "description": "Test",
+                    "text": "python import sys;sys.path.insert(0, '/usr/share/gcc/python');from libstdcxx.v6.printers import register_libstdcxx_printers;register_libstdcxx_printers(None)",
+                    "ignoreFailures": false
+                },
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+			]
+		},
+	]
+}

@@ -1,0 +1,29 @@
+// g++ -v -E -x c++ -
+// sudo update-alternatives --config gcc
+// sudo update-alternatives --install /usr/bin/gcc gcc /usr/local/gcc-12/bin/gcc 71
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/gcc-12/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0",
+                "/usr/local/gcc-12/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu",
+                "/usr/local/gcc-12/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward",
+                "/usr/local/gcc-12/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include",
+                "/usr/local/include",
+                "/usr/local/gcc-12/include",
+                "/usr/local/gcc-12/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include"
+            ],
+            "defines": [],
+            // "compilerPath": "/usr/bin/clang++-14",
+            "compilerPath": "/home/koi/install/gcc-12/bin/g++",
+            "cStandard": "c11",
+            "cppStandard": "c++20"
+            // "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
